@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18,115,115);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600px;
+    width: fit-content;
+
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+nav .logo{
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+nav ul li{
+    padding: 0px 20px;
+}
+nav ul li a:hover{
+    color: red;
+    font-weight: 700;
+}
+
+.searchField{
+    display: flex;
+    /* gap: 20px; */
+}
+
+input {
+    padding: 4px 10px;
+  }
+
+/*  hero section */
+
+  .heroSection {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+/* hero left section */
+
+.heroSectionLeft{
+    width: 60%;
+    padding: 0 8%;
+}
+
+.heroSectionLeft h1 {
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 16px;
+  }
+  .heroSectionLeft h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    background-color: #dfdfe0;
+    padding: 0 15px;
+  }
+  
+  .heroSectionLeft p {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .heroSectionLeft p span {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(18, 155, 155);
+  }
+
+  /* right hero section */
+
+  .heroSectionRight{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+  }
+  .heroSectionRightBtn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 0px;
+  }
+  
+  .heroSectionRight img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+
+  /* footer */
+
+footer {
+    font-weight: 400;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+  }
+  
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
