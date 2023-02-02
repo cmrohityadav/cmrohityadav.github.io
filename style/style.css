@@ -50,9 +50,14 @@ nav{
 
 }
 
+/* logo  */
 
 nav .logo{
     font-size: 20px;
+}
+
+nav .logo img{
+  height: 50px;
 }
 
 nav ul{
