@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 100vh; */
+    /* background-image: image; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png");
+    
+    /* background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png"); */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Red Rose", cursive;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 10vh;
+}
+main{
+    height: 70vh;
+}
+.logo{
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffc233;
+}
+nav ul li a:hover{
+color: aliceblue;
+}
+.orderBtn{
+    margin-right: 20px;
+    
+  
+}
+.orderBtn button{
+    padding: 10px 20px;
+    font-family: "Dela Gothic One", cursive;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+.orderBtn button:hover{
+    background-color: white;
+    color: red;
+    border: white;
+    border: 1px solid white;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tagline{
+    /* height: 70vh; */
+    width: 1000px;
+    text-align: center;
+}
+.tagline h1{
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    /* or 110% */
+    color: #ffc233
+    
+}
+
+.readMenu button{
+    font-family: "Dela Gothic One", cursive;
+    background-color: red;
+    color: white;
+    padding: 20px 50px;
+    font-size: medium;
+    border:2px solid red ;
+    margin-top: 50px;
+}
+.readMenu button:hover{
+    background-color: white;
+    color: red;
+    border: white;
+}
+
+
+/* footer  */
+footer{
+   
+    display: flex;
+    justify-content: end;
+    
+    height: 20vh;
+}
+footer img{
+    
+    
+    height: 150px;
+}
+    
