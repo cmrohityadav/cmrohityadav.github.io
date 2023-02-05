@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+/* header  */
+header{
+   
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+/* logo  */
+.logo{
+    padding: 2px;
+    /* border: 1px solid red; */
+
+}
+/* menu bar  */
+nav ul{
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: left;
+    padding-right: 200px;
+    /* margin-right: 40vw; */
+
+}
+nav ul li{
+    margin: 0px 20px;
+    list-style: none;
+}
+nav ul li a{
+    color: #6e6e6e;
+    text-decoration: none;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    color: black;
+}
+
+/* contact us  */
+.contactUs{
+    
+    margin-right: 20px;
+    /* border-radius: 10px solid #5955b3; */
+    /* border: 1px solid red; */
+
+}
+.contactUs button{
+    
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: #5955b3;
+    border: 2px solid rgb(1, 1, 1);
+    border-radius: 10px ;
+    
+}
+
+.contactUs button:hover{
+    background-color: #fff;
+    color: #5955b3;
+}
+/* main  */
+main{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* left  */
+
+.left{
+    
+    display: flex;
+    flex-direction: column;
+    /* margin:0px 40px; */
+    margin-left: 20px;
+    padding-left: 20px;
+    
+    
+}
+.left h1{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 74px;
+    color: #3c2f60;
+}
+.left span {
+    color: #5955b3;
+  }
+.left p{
+    
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 28px;
+}
+
+.right{
+    margin-right: 20px;
+}
+.ourServices{
+    border: 1px solid red;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #5955b3;
+    border-radius: 10px;
+    /* padding: 0px 20px; */
+    
+    
+}
+.ourServices:hover{
+    color: #5955b3;
+    background-color: white;
+}
