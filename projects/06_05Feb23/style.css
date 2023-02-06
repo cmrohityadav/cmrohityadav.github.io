@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* navbar */
+  
+  .navbar {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    height: 80px;
+    
+    background-color: #000000f2;
+  }
+
+  .grow-list {
+    flex-grow: 1;
+  }
+  
+  img {
+    width: 92px;
+    height: 32px;
+  }
+  
+  .line {
+    width: 2px;
+    height: 60px;
+    background-color: #fff;
+    margin-left: 63px;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-left: 64px;
+  }
+  .list li a{
+    text-decoration: none;
+  }
+  .list li a:hover{
+    color: #fff;
+  }
+ /* buy token button */
+  
+  .buyTokenBtn{
+    /* border: 20px solid rgb(221, 23, 23); */
+    padding: 10px 35px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .buyTokenBtn:hover{
+    color: #ba0cc5;
+    background-color: #fff;
+  }
+  
+ /* main */
+  
+  .hero {
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91.5vh;
+    text-align: center;
+  }
+  
+  .heroHeading {
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 172px;
+  }
+  
+  .heroDiscription {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+  }
+  
+  /* rea button */
+  .reaBtn{
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+  }
+
+  .reaBtn:hover{
+    color: #ba0cc5;
+    background-color: #fff;
+  }
