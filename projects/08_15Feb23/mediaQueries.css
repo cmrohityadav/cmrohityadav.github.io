@@ -1,0 +1,113 @@
+@media screen and (max-width: 991px) {
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .maiNav {
+        overflow: initial;
+    }
+
+    .navLinks {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .navLinks.active {
+        left: 0;
+    }
+
+    .navLinks ul {
+        flex-direction: column;
+    }
+
+    .examplesArea {
+        gap: 20px;
+    }
+
+    .examplesCard {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .ctaSection {
+        padding-block: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+
+    .primaryButton {
+        width: 100%;
+    }
+
+    .headerSection {
+        flex-direction: column-reverse;
+    }
+
+    .headerLeft {
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .featuresCard {
+        min-width: calc(50% - 10px);
+    }
+
+    .bigFeatureContainer, #secondBigFeature {
+        flex-direction: column;
+    }
+
+    .footerContainer {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .linkColumn {
+        align-items: stretch;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    :root {
+        --paddingInlineSection: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .featuresCard {
+        min-width: 100%;
+    }
+
+    .examplesCard {
+        width: 100%;
+    }
+}
