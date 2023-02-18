@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* header */
+header{
+    background-color: #141313;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ham{
+    display: none;
+}
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+    
+}
+nav ul{
+   
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    
+    margin: 0 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    background-color: #8264eb;
+    color: white;
+    border-radius: 15px;
+
+}
+
+/* main */
+main{
+    background-color: #181340;
+}
+
+.main{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.left img{
+    height:50px;
+}
+.hi p{
+    font-size: 3rem;
+}
+.left h1{
+    font-size: 5rem;
+}
+.left h2{
+    font-size: 3rem;
+    color: orange;
+}
+.right {
+    width: 50%;
+   height: 60px;
+}
+.right img{
+    height: 700px;
+    width: 800px;
+}
+/* class hi */
+.hi{
+    display: flex;
+}
+/* project title */
+.titleProject{
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+    text-decoration: underline #0000ff;
+
+
+}
+/* projects */
+.project{
+    display: flex;
+    flex-direction: column;
+}
+.projectUpper,.projectLower{
+    display: flex;
+    /* width: 100vw; */
+    justify-content: space-around;
+
+}
+.projectUpper img,.projectLower img{
+    height: 500px;
+    
+}
+/* contact */
+.contact{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact p{
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline #0000ff 5px;
+
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    height: 30px;
+    padding: 5px 10px;
+}
+
+/* project title */
+.proejct1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.proejct1 h3{
+    color: white;
+    font-size: 1.5rem;
+}
+
+

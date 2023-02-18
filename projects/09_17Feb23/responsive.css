@@ -1,0 +1,88 @@
+@media screen and (max-device-width : 480px){
+    *{
+        padding: 0;
+        margin: 0;
+
+    }
+    header{
+        display: flex;
+        justify-content: start;
+    }
+    /* hamberg */
+    .ham{
+        display: flex;
+        /* justify-content: start; */
+    }
+    .ham img{
+        width: 15px;
+    }
+    nav{
+        display: none;
+    }
+    /* main */
+    main{
+        /* width: 480px; */
+        display: flex;
+        flex-direction: column;
+        background-color: #181340;
+        align-items: center;
+    }
+
+    .main{
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        align-items: center;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* hi */
+    .hi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hi img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .hi p{
+        font-size: 2rem;
+    }
+    .left h1{
+        font-size: 3rem;
+    }
+    .left h2{
+        font-size: 3rem;
+        color: orange;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .right img{
+    width: 200px;
+    }
+
+
+    .titleProject{
+        margin-top: 10rem;
+    }
+    .project,.projectUpper,.projectLower{
+        display: flex;
+        flex-direction: column;
+    }
+    .projectUpper img,.projectLower img{
+        
+        width: 315px;
+    }
+
+    
+}
